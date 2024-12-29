@@ -3,7 +3,7 @@
 const path = require('path'); 
 
 //prarse function
-var pathObject = path.parse(__filename); //it return the json
+var pathObject = path.parse(__filename); //it return the json 
 console.log(pathObject);
 /*
 {
