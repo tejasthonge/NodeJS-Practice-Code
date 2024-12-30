@@ -5,7 +5,7 @@ const EventEmitter = require("events");
 
 const emitter = new EventEmitter();
 //Ragitering the listener havig the arg parametor
-emitter.on("callulateSum",function(eventArg){
+emitter.on("callulateSum",(eventArg)=>{  //here we use the arrow function
 
     var sum = eventArg.a+ eventArg.b;
     console.log(`Sum of ${eventArg.a} and ${eventArg.b} : ${sum}`);
