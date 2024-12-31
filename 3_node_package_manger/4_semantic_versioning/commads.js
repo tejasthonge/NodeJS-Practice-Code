@@ -2,14 +2,19 @@
 
 
 //to check the version or theire depth dependcy 
-//npm list
+npm list
 
 //or without depth 
-//npm list --depth=0
+npm list --depth=0
 
 //to check the specifick package dependcy
-//npm view <packageName> dependcy
+npm view <packageName> dependcy
 
 //to install respective version
-//npm install packagename@x.x.x
+npm install packagename@x.x.x
   
+//to check outdated vesion 
+npm outdated
+
+//then we want to update run
+npm update 

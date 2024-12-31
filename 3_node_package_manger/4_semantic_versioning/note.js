@@ -30,10 +30,3 @@
 // "underscore": "^1.13.7" // ---> It means we can use versions compatible with 1.x 
 //                           // (but less than 2.0.0).
 
-
-//to check the version or theire depth dependcy 
-//npm list
-
-//or without depth 
-//npm list --depth=0
-  
