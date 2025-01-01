@@ -44,9 +44,6 @@ app.get('/api/post/:id', (req, res) => {
     else {
         res.send(postAtID);
     }
-
-
-
 });
 
 const port = process.env.PORT || 3000;
