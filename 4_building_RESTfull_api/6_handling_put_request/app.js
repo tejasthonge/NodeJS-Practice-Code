@@ -76,6 +76,10 @@ app.put('/api/students/updage/:id',(req,res)=>{
     }
 });
 
+app.get("/api/students/",(req,res)=>{
+    res.send(students);
+});
+
 const port = process.env.PORT || 3000;
 
 app.listen(port,()=>console.log(`server port listening at : ${port}`))
