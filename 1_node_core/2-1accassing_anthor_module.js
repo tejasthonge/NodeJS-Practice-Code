@@ -1,6 +1,6 @@
 
 
-//to access the funtion or th varbale form the anthor filer or module is known loading 
+//to access the funtion or th varbale form the anthor file or module is known loading 
 //that time require key word comes
 
 var accessor = require('./2exports_keyword.js'); 
