@@ -32,7 +32,7 @@ app.get('/api/empoloyee',(req,res)=>{
 
 });
 
-app.post('/api/createEmpoloyee', function (req, res) {
+app.post('/api/empoloyee/create', function (req, res) {
 
     const newEmpoyee = {
         id: employees.length + 1,
