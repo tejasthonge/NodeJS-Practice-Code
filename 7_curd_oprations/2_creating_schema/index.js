@@ -42,6 +42,7 @@ async function run() {
         author:"Shashi Bagal"
     });
     await getCourses();
+    
 }
 run();
 
